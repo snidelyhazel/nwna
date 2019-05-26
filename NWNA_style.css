@@ -1,24 +1,110 @@
+/* Fonts */
 
+html
+{
+  font-family: sans-serif;
+
+  --brand-black: rgb(0,0,0);
+  --brand-white: rgb(255,255,255);
+  --brand-red: rgb(170,0,0);
+  --brand-charcoal: rgb(85,85,85);
+  --brand-silver: rgb(170, 170, 170);
+  --brand-blue: rgb(85, 128, 191);
+  --brand-green: rgb(0,85,64);
+}
 
 /* Brand Identity */
+
 svg.dark
 {
-  fill: rgb(0,0,0);
+  fill: var(--brand-black);
 }
 svg.light
 {
-  fill: rgb(255,255,255);
+  fill: var(--brand-white);
 }
 svg.red
 {
-  fill: rgb(170,0,0);
+  fill: var(--brand-red);
 }
-svg.gray
+svg.green
 {
-  fill: rgb(85,85,85);
+  fill: var(--brand-green);
 }
+
+/* Navigation */
 
 .nav-logo
 {
   width: 250px;
+}
+
+.topnav
+{
+  background-color: var(--brand-black);
+  overflow: hidden;
+}
+
+.topnav a
+{
+  float: left;
+  display: flex;
+  color: var(--brand-silver);
+  text-align: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.topnav a:hover
+{
+  background-color: var(--brand-red);
+  color: var(--brand-silver);
+}
+
+.topnav .active
+{
+  background-color: var(--brand-blue);
+  color: var(--brand-black);
+}
+
+.topnav .icon
+{
+  display: none;
+}
+
+/* Responsive Navigation w3schools.com/howto/howto_js_topnav_responsive.asp */
+
+@media screen and (max-width: 600px)
+{
+  .topnav a:not(:first-child)
+  {
+    display: none;
+  }
+  
+  .topnav a.icon
+  {
+    float: right;
+    display: flex;
+  }
+
+  .topnav.responsive
+    {
+      position: relative;
+    }
+
+  .topnav.responsive a.icon
+  {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a
+  {
+    float: none;
+    display: flex;
+    text-align: left;
+  }
 }
