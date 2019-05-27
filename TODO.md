@@ -18,5 +18,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Resources page
 
+### Send submission confirmation email
+
 ### Protect against DDoS
 https://www.scanforsecurity.com/articles/protect-web-app-php-simple-ddos-attacks.html
