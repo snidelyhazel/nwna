@@ -6,8 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="NWNA_style.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <?php include("includes/NWNA_head.php");?>
 </head>
 <body>
   <?php include("includes/NWNA_nav.php");?>
