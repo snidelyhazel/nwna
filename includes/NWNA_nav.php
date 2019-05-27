@@ -1,5 +1,6 @@
-
 <header>
+  <!--<img src="logo.svg" class="nav-logo" alt="North Westdale Neighborhood Association"/>-->
+  <?php include("includes/NWNA_logo.php");?>
   <nav>
     <div class="topnav" id="NWNA-nav">
       <a href="NWNA_home.php" <?php if($CURRENT_PAGE=="Home") echo "class='active'"; ?>>Home</a>

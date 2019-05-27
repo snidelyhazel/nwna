@@ -10,32 +10,27 @@
 </head>
 <body>
   <?php include("includes/NWNA_nav.php");?>
+  <main>
 
-  <img src="logo.svg" class="nav-logo" alt="North Westdale Neighborhood Association"/>
-  <p>Hello World!</p>
+    <p>Hello World!</p>
 
 
-  <script>
-    function toggleNav()
-    {
-      var item = document.getElementById("NWNA-nav");
-      if (item.className === "topnav")
+    <script>
+      function toggleNav()
       {
-        item.className += " responsive";
+        var item = document.getElementById("NWNA-nav");
+        if (item.className === "topnav")
+        {
+          item.className += " responsive";
+        }
+        else
+        {
+          item.className = "topnav";
+        }
       }
-      else
-      {
-        item.className = "topnav";
-      }
-    }
-  </script>
+    </script>
+  </main>
 
-  <footer>
-    <address>
-      North Westdale Neighborhood Association
-      P.O.&nbsp;Box&nbsp;642522
-      Los Angeles,&nbsp;CA&nbsp;90064
-    </address>
-  </footer>
+  <?php include("includes/NWNA_footer.php");?>
 </body>
 </html>

@@ -37,10 +37,20 @@ svg.green
 .nav-logo
 {
   width: 250px;
+  height: 193px;
+  margin: 5px 5px;
+  color: var(--brand-blue);
+}
+
+header
+{
+  display: flex;
+  background-color: var(--brand-black);
 }
 
 .topnav
 {
+  display: inline-flex;
   background-color: var(--brand-black);
   overflow: hidden;
 }
@@ -82,7 +92,7 @@ svg.green
   {
     display: none;
   }
-  
+
   .topnav a.icon
   {
     float: right;
@@ -107,4 +117,20 @@ svg.green
     display: flex;
     text-align: left;
   }
+}
+
+body
+{
+  margin: 0;
+}
+
+main
+{
+  padding: 0 15px;
+  max-width: 75ch;
+}
+
+footer
+{
+  padding: 5px 5px;
 }
