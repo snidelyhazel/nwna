@@ -44,3 +44,19 @@ Resources
 -->
   </nav>
 </header>
+
+<!-- Responsive navigation -->
+<script>
+  function toggleNav()
+  {
+    var item = document.getElementById("NWNA-nav");
+    if (item.className === "topnav")
+    {
+      item.className += " responsive";
+    }
+    else
+    {
+      item.className = "topnav";
+    }
+  }
+</script>

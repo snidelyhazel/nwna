@@ -14,21 +14,6 @@
 
     <p>Hello World!</p>
 
-
-    <script>
-      function toggleNav()
-      {
-        var item = document.getElementById("NWNA-nav");
-        if (item.className === "topnav")
-        {
-          item.className += " responsive";
-        }
-        else
-        {
-          item.className = "topnav";
-        }
-      }
-    </script>
   </main>
 
   <?php include("includes/NWNA_footer.php");?>
