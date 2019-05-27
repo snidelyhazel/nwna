@@ -27,6 +27,7 @@
           <label>E-mail: <input type="email" name="contact" placeholder="you@exampledomain.com" required></label></div>
         <div style="margin: 3px;">
           <label>Affiliation: <select name="affiliation">
+            <option selected disabled>How are you connected?</option>
             <option value="live">I live here.</option>
             <option value="work">I work here.</option>
             <option value="property">I own property here.</option>

@@ -6,6 +6,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Search newsletter database by month and year
 
+### Newsletter preview thumbnails
+
 ### Store meeting agendas and minutes in database
 
 ### Search meeting notes by month and year

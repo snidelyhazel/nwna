@@ -12,7 +12,23 @@
   <?php include("includes/NWNA_nav.php");?>
 
   <main>
+    <a href="javascript: modalize();" class="modal-thumbnail" style="float: right;">
+      <img src="images/NWNA_mapview_cropped.jpg" alt="A map of the North Westdale Neighborhood Association boundaries" style="width: 250px; height: 200px;">
+      <div>
+        Click to enlarge.
+      </div>
+    </a>
+
+    <div id="modal-map" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="images/NWNA_mapview_cropped.jpg" alt="A map of the North Westdale Neighborhood Association boundaries" style="width: 500px; height: 400px;">
+      </div>
+    </div>
+
     <p>The North Westdale Neighborhood Association, a nonprofit, nonpartisan community advocacy organization, represents approximately 1000 homes in the North Westdale neighborhood of Los Angeles. The NWNA serves the area bounded by the 405 Freeway to the east, National Boulevard to the south, Centinela Avenue/Bundy Drive to the west and the Santa Monica Freeway to the north. All residents, both homeowners and renters, are members. There is an annual voluntary donation of $10 per household.</p>
+
     <p>Every block has a "block captain", a representative who attends NWNA monthly meetings and distributes the newsletter. You are encouraged to keep in touch with your block captain or attend the meetings yourself. The meetings in September through May focus on concerns within our immediate neighborhood. The June meeting offers a public opportunity for all residents to meet our city council representative, police captain, and other community leaders.</p>
     <p>The NWNA coincides with Zone 2 of the Mar Vista Neighborhood Council, part of the citywide system of neighborhood councils established by the 1999 City Charter.</p>
 
@@ -31,7 +47,7 @@
     <p>We maintain close contact with our city council representative, our local police officers, and Security Service Systems. They want to hear our concerns.</p>
     <p>We send representatives to meetings of the Santa Monica Airport Commission and the Police Departmentâs Community Advisory Committee to communicate neighborhood interests to those organizations.</p>
   </main>
-  
+
   <?php include("includes/NWNA_footer.php");?>
 </body>
 </html>

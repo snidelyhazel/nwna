@@ -1,4 +1,5 @@
 <footer>
+  Copyright © 2019 Ashley Zeldin on behalf of
   <address>
     North Westdale Neighborhood Association
     P.O.&nbsp;Box&nbsp;642522
