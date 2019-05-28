@@ -12,10 +12,11 @@
   <?php include("includes/NWNA_nav.php");?>
 
   <main>
-    <a href="javascript: modalize();" class="modal-thumbnail" style="float: right;">
+    <a href="javascript: modalize(); imgcycle(['images/NWNA_mapview_cropped.jpg', 'images/NWNA_satview_cropped.jpg'], ['A map view of the North Westdale Neighborhood Association boundaries', 'A satellite view of the North Westdale Neighborhood Association boundaries']);" class="modal-thumbnail" style="float: right;">
       <img src="images/NWNA_mapview_cropped.jpg" alt="A map of the North Westdale Neighborhood Association boundaries" style="width: 250px; height: 200px;">
       <div>
-        Click to enlarge.
+        Click to enlarge map image<br/>
+        and view satellite image.
       </div>
     </a>
 
@@ -23,7 +24,14 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <img src="images/NWNA_mapview_cropped.jpg" alt="A map of the North Westdale Neighborhood Association boundaries" style="width: 500px; height: 400px;">
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
+        <figure>
+          <img src="images/NWNA_mapview_cropped.jpg" id="mapview" alt="A map of the North Westdale Neighborhood Association boundaries" style="width: 500px; height: 400px;">
+          <figcaption id="mapcap">
+            A map view of the North Westdale Neighborhood Association boundaries
+          </figcaption>
+        </figure>
       </div>
     </div>
 

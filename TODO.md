@@ -2,10 +2,7 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
-### Store newsletter PDFs in database
-* newsletter
-* timestamp
-* primary key
+### Store remaining newsletter PDFs in database
 
 ### Search newsletter database by month and year
 
@@ -17,7 +14,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Event calendar
 
-### Toggle between map views
+### Refactor modal + cycling + captions for general use
 
 ### Petfinder
 

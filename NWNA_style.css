@@ -210,6 +210,49 @@ main
   cursor: pointer;
 }
 
+.prev
+{
+  color: var(--brand-black);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 7px;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.next
+{
+  color: var(--brand-black);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 7px;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+figure
+{
+  margin: 0;
+}
+
+figcaption
+{
+  width: 500px;
+  font-size: small;
+}
+
 footer
 {
   /* width + padding + border = actual visible, rendered width; css-tricks.com/box-sizing/ */
