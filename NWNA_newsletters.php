@@ -51,7 +51,7 @@
       </div>
     </form>
     <?php
-      if (isset($_POST['newsletter-text']) || isset($_POST['newsletter-upload']))
+      if (isset($_POST['newsletter-text']) || isset($_FILES['newsletter-upload']))
       {
         echo "<p>Thank you for your submission.</p>";
       }

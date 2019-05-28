@@ -45,7 +45,7 @@
 
     <h2>Community Awareness</h2>
     <p>We maintain close contact with our city council representative, our local police officers, and Security Service Systems. They want to hear our concerns.</p>
-    <p>We send representatives to meetings of the Santa Monica Airport Commission and the Police Departmentâs Community Advisory Committee to communicate neighborhood interests to those organizations.</p>
+    <p>We send representatives to meetings of the Santa Monica Airport Commission and the Police Department's Community Advisory Committee to communicate neighborhood interests to those organizations.</p>
   </main>
 
   <?php include("includes/NWNA_footer.php");?>

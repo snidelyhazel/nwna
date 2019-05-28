@@ -3,6 +3,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ### Store newsletter PDFs in database
+* newsletter
+* timestamp
+* primary key
 
 ### Search newsletter database by month and year
 
@@ -14,7 +17,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Event calendar
 
-### Redraw NWNA area map using Google Maps for interactivity
+### Toggle between map views
 
 ### Petfinder
 
