@@ -36,22 +36,27 @@
         $SQLstring = "SELECT date from $table WHERE date = $filename";
         $QueryResult = mysqli_query($db, $SQLstring);
 
-        $month = null;
-        switch($date->format("m"))
+        function convertDate($dateString)
         {
-          case "01": $month = "January"; break;
-          case "02": $month = "February"; break;
-          case "03": $month = "March"; break;
-          case "04": $month = "April"; break;
-          case "05": $month = "May"; break;
-          case "06": $month = "June"; break;
-          case "07": $month = "July"; break;
-          case "08": $month = "August"; break;
-          case "09": $month = "September"; break;
-          case "10": $month = "October"; break;
-          case "11": $month = "November"; break;
-          case "12": $month = "December"; break;
-          default: throw new Exception;
+          $month = null;
+          switch($dateString)
+          {
+            case "01": $month = "January"; break;
+            case "02": $month = "February"; break;
+            case "03": $month = "March"; break;
+            case "04": $month = "April"; break;
+            case "05": $month = "May"; break;
+            case "06": $month = "June"; break;
+            case "07": $month = "July"; break;
+            case "08": $month = "August"; break;
+            case "09": $month = "September"; break;
+            case "10": $month = "October"; break;
+            case "11": $month = "November"; break;
+            case "12": $month = "December"; break;
+            default: throw new Exception;
+          }
+
+          return $month;
         }
 
         if (mysqli_num_rows($QueryResult) == 0)
@@ -60,12 +65,13 @@
           $SQLstring = "SELECT date from $table ORDER BY date DESC LIMIT 1";
           $QueryResult = mysqli_query($db, $SQLstring);
           $row = mysqli_fetch_array($QueryResult);
+          $recent = $row["date"];
 
-          echo "<iframe class='newsletter-thumb' src='NWNA_viewPDF.php?date=" . $row["date"] . "'></iframe>";
+          echo "<p><a href='NWNA_viewPDF.php?date=" . $recent . "' target='_blank'>" . convertDate(substr($recent, 4, 2)) . " " . substr($recent, 0, 4) . "</a></p>";
         }
         else
         {
-          echo "<a href='NWNA_viewPDF.php?date=$filename' target='_blank'><iframe class='newsletter-thumb' src='NWNA_viewPDF.php?date=" . $filename . "'></iframe></a>";
+          echo "<p><a href='NWNA_viewPDF.php?date=$filename' target='_blank'>" . convertDate($date->format('m')) . " " .  $date->format('Y') . "</a></p>";
 
         }
 
