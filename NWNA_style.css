@@ -259,6 +259,16 @@ figcaption
   justify-content: space-between;
 }
 
+.reveal
+{
+  display: none;
+}
+
+.reveal:target
+{
+  display: block;
+}
+
 footer
 {
   /* width + padding + border = actual visible, rendered width; css-tricks.com/box-sizing/ */
