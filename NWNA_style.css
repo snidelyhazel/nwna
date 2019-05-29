@@ -253,6 +253,18 @@ figcaption
   font-size: small;
 }
 
+.newsletter-div
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+iframe.newsletter-thumb
+{
+    width: 200px;
+    height: 300px;
+}
+
 footer
 {
   /* width + padding + border = actual visible, rendered width; css-tricks.com/box-sizing/ */
