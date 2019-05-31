@@ -37,12 +37,10 @@
         $host="localhost";
 
         $db = mysqli_connect($host, $user, $admin_password);
-        // If the connection to the MySQL database server fails, display error with corresponding error code.
         if ($db === FALSE)
         {
             echo "<p>Unable to connect to the database server.</p>" . "<p>Error code " . mysqli_errno() . ": " . mysqli_error() . "</p>";
         }
-        // If the connection to the MySQL database server is successful.
         else
         {
             $dbname = "zashley_project";
@@ -72,8 +70,7 @@
 
             if (mysqli_num_rows($QueryResult) == 0)
             {
-
-                  $SQLstring = "CREATE TABLE $table (date BIGINT PRIMARY KEY, file LONGBLOB)";
+                  $SQLstring = "CREATE TABLE IF NOT EXISTS $table (date BIGINT PRIMARY KEY, file LONGBLOB)";
                   $QueryResult = mysqli_query($db, $SQLstring);
                   /*
                   if ($QueryResult === FALSE)
@@ -82,7 +79,6 @@
                   }
                 */
             }
-
 
           $date = implode("", explode("-", $_POST['date']));
           $QueryResult = mysqli_query($db, "INSERT INTO $table (date, file) VALUES ($date, '" . mysqli_real_escape_string($db, file_get_contents($_FILES['newsletter-upload']['tmp_name'])) . "');");
@@ -96,7 +92,7 @@
             echo "<p>Your newsletter " . $_FILES['newsletter-upload']['name'] . " has been uploaded successfully.</p>";
           }
         }
-}
+      }
     ?>
   </main>
 
