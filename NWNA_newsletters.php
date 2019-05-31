@@ -65,7 +65,7 @@
     <!--Current-->
     <div id="current" class="reveal">
       <?php
-        $date = new DateTime();
+        $date = new DateTime('now', new DateTimeZone('America/Los_Angeles'));
         $filename = $date->format("Ym");
 
         if ($db !== FALSE)
@@ -88,6 +88,7 @@
             echo "<p><a href='NWNA_viewPDF.php?date=$filename' target='_blank'>" . convertDate($date->format('m')) . " " .  $date->format('Y') . "</a></p>";
           }
         }
+
       ?>
     </div>
 
