@@ -3,6 +3,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ### Store remaining newsletter PDFs in database
+* ZIP or reduce filesize
 
 ### Search newsletter database by month and year
 
@@ -17,6 +18,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ### Refactor modal + cycling + captions for general use
 
 ### Petfinder
+
+### Use cookies + advisory
 
 ### Resources page
 
