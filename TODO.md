@@ -5,6 +5,10 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ### Store remaining newsletter PDFs in database
 * ZIP or reduce filesize
 
+### Mobile navbar
+* scale header img
+* decide on navbar scheme
+
 ### Search newsletter database by month and year
 
 ### Newsletter preview thumbnails

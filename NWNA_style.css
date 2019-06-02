@@ -40,22 +40,26 @@ svg.green
      width: 500px;
      height: 385px;
   */
-  width: 162px;
-  height: 125px;
-  margin: 5px 5px;
-  color: var(--brand-blue);
+  width: 23vw;
+  height: 18vw;
+  margin: 1vw;
+  color: var(--brand-white);
 }
 
 header
 {
   display: flex;
   background-color: var(--brand-black);
+  background-image: url(imgs/NWNA_collage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20vw;
 }
 
 .topnav
 {
   display: inline-flex;
-  background-color: var(--brand-black);
+  background-color: rgba(0,0,0,.5);
   overflow: hidden;
 }
 
@@ -67,7 +71,7 @@ header
   text-align: center;
   align-items: center;
   height: 48px;
-  padding: 0 15px;
+  padding: 0 30px;
   text-decoration: none;
 }
 
