@@ -4,9 +4,11 @@
   <nav>
     <div class="topnav" id="NWNA-nav">
       <a href="NWNA_home.php" <?php if($CURRENT_PAGE=="Home") echo "class='active'"; ?>>Home</a>
+      <a href="NWNA_join.php" <?php if($CURRENT_PAGE=="Join") echo "class='active'"; ?>>Join</a>
       <a href="NWNA_about.php" <?php if($CURRENT_PAGE=="About") echo "class='active'"; ?>>About</a>
       <a href="NWNA_newsletters.php" <?php if($CURRENT_PAGE=="Newsletters") echo "class='active'"; ?>>Newsletters</a>
-      <a href="NWNA_calendar.php" <?php if($CURRENT_PAGE=="Calendar") echo "class='active'"; ?>>Calendar</a>      
+      <a href="NWNA_calendar.php" <?php if($CURRENT_PAGE=="Calendar") echo "class='active'"; ?>>Calendar</a>
+      <a href="NWNA_pets.php" <?php if($CURRENT_PAGE=="Pets") echo "class='active'"; ?>>Pets</a>           
       <a href="NWNA_resources.php" <?php if($CURRENT_PAGE=="Resources") echo "class='active'"; ?>>Resources</a>
       <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
         <i class="material-icons">menu</i>

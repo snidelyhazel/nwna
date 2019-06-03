@@ -59,7 +59,7 @@ header
 .topnav
 {
   display: inline-flex;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.33);
   overflow: hidden;
 }
 
@@ -77,14 +77,14 @@ header
 
 .topnav a:hover
 {
-  background-color: var(--brand-red);
+  background-color: rgba(170,0,0,.5);
   color: var(--brand-silver);
 }
 
 .topnav .active
 {
-  background-color: var(--brand-blue);
-  color: var(--brand-black);
+  background-color: rgba(0,85,64,.5);
+  color: var(--brand-silver);
 }
 
 .topnav .icon
