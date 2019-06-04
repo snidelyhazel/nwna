@@ -96,6 +96,7 @@
     ?>
   </main>
 
+  <?php include("includes/NWNA_sidebar.php");?>
   <?php include("includes/NWNA_footer.php");?>
 </body>
 </html>

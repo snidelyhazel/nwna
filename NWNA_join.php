@@ -13,7 +13,7 @@
   <main>
     <h2>Join the North Westdale Neighborhood Association</h2>
 
-    <p>While all North Westdale residents, homeowners and renters, are NWNA members, we appreciate your support. Suggested annual dues are $15 per household.</p>
+    <p>While all North Westdale residents, homeowners and renters, are NWNA members, we appreciate your support.<br/> Suggested annual dues are $15 per household.</p>
     <p>These voluntary dues pay our basic operating costs, including our meeting venue, website hosting, and newsletter printing.</p>
     <p>You may pay your annual dues online, in-person or by mail.</p>
     <p>We gladly accept donations above and beyond suggested annual dues.</p>
@@ -38,7 +38,8 @@
     <p>with your address and current year on the memo line.</p>
 
   </main>
-
+  
+  <?php include("includes/NWNA_sidebar.php");?>
   <?php include("includes/NWNA_footer.php");?>
 </body>
 </html>

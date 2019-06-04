@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <p>The North Westdale Neighborhood Association, a nonprofit, nonpartisan community advocacy organization, represents approximately 1000 homes in the North Westdale neighborhood of Los Angeles. The NWNA serves the area bounded by the 405 Freeway to the east, National Boulevard to the south, Centinela Avenue/Bundy Drive to the west and the Santa Monica Freeway to the north. All residents, both homeowners and renters, are members. There is an annual voluntary donation of $10 per household.</p>
+    <p>The North Westdale Neighborhood Association, a nonprofit, nonpartisan community advocacy organization, represents approximately 1000 homes in the North Westdale neighborhood of Los Angeles. The NWNA serves the area bounded by the 405 Freeway to the east, National Boulevard to the south, Centinela Avenue and Bundy Drive to the west, and the Santa Monica Freeway to the north. All residents, both homeowners and renters, are members. There is an annual voluntary contribution of $10 per household.</p>
 
     <p>Every block has a "block captain", a representative who attends NWNA monthly meetings and distributes the newsletter. You are encouraged to keep in touch with your block captain or attend the meetings yourself. The meetings in September through May focus on concerns within our immediate neighborhood. The June meeting offers a public opportunity for all residents to meet our city council representative, police captain, and other community leaders.</p>
     <p>The NWNA coincides with Zone 2 of the Mar Vista Neighborhood Council, part of the citywide system of neighborhood councils established by the 1999 City Charter.</p>
@@ -56,6 +56,7 @@
     <p>We send representatives to meetings of the Santa Monica Airport Commission and the Police Department's Community Advisory Committee to communicate neighborhood interests to those organizations.</p>
   </main>
 
+  <?php include("includes/NWNA_sidebar.php");?>
   <?php include("includes/NWNA_footer.php");?>
 </body>
 </html>
