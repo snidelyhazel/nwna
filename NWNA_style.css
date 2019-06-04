@@ -9,7 +9,7 @@ html
   --brand-red: rgb(170,0,0);
   --brand-charcoal: rgb(85,85,85);
   --brand-silver: rgb(170, 170, 170);
-  --brand-blue: rgb(85, 128, 191);
+  --brand-blue: rgb(85, 128, 191); /* #5580bf */
   --brand-green: rgb(0,85,64);
 }
 
@@ -257,6 +257,24 @@ figcaption
   font-size: small;
 }
 
+.form-div
+{
+  padding: 3px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-div-center
+{
+  padding: 3px;
+  width: 500px;
+}
+
+.form-div-center label
+{
+  margin-left: 20px;
+}
+
 .newsletter-div
 {
   display: flex;
@@ -271,6 +289,24 @@ figcaption
 .reveal:target
 {
   display: block;
+}
+
+.reveal-if-active
+{
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+input[type="radio"]:checked + .reveal-if-active,
+input[type="checkbox"]:checked + .reveal-if-active
+{
+  opacity: 1;
+  max-height: 100px;
+  overflow: visible;
+  transform: scale(1);
 }
 
 footer

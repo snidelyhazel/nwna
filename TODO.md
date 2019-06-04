@@ -2,12 +2,18 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
+### Database for pet lost and found
+
+### Join page
+
 ### Store remaining newsletter PDFs in database
 * ZIP or reduce filesize
 
 ### Mobile navbar
 * scale header img
 * decide on navbar scheme
+
+### Fix line in SVG
 
 ### Search newsletter database by month and year
 
@@ -17,11 +23,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Search meeting notes by month and year
 
-### Event calendar
-
 ### Refactor modal + cycling + captions for general use
 
-### Petfinder
+### Add info to pet page
 
 ### Use cookies + advisory
 
