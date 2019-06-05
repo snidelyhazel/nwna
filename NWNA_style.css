@@ -42,6 +42,7 @@ svg.green
   */
   width: 23vw;
   height: 18vw;
+  flex-shrink: 0;
   margin: 1vw;
   color: var(--brand-white);
 }
@@ -190,7 +191,7 @@ main
 {
   padding: 0 15px;
   max-width: 100ch;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   position: relative;
 }
 
@@ -334,7 +335,7 @@ figcaption
   margin-left: 20px;
 }
 
-.newsletter-div
+.across-div
 {
   display: flex;
   justify-content: space-between;

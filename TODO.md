@@ -4,16 +4,11 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Database for pet lost and found
 
-### Join page
-
 ### Store remaining newsletter PDFs in database
 * ZIP or reduce filesize
 
-### Mobile navbar
-* scale header img
-* decide on navbar scheme
-
 ### Fix line in SVG
+### Add jacaranda?
 
 ### Search newsletter database by month and year
 

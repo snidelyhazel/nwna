@@ -1,9 +1,9 @@
 <!--https://cdnjs.com/libraries/font-awesome-->
 
-<!-- Load font awesome icons -->
+<!-- Load Font Awesome icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- The social media icon bar -->
+<!-- Social media icon bar -->
 <div class="icon-bar">
   <a href="https://www.facebook.com/groups/400341460060993/" class="facebook"><i class="fa fa-facebook"></i></a>
   <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>

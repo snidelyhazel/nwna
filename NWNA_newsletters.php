@@ -56,7 +56,7 @@
 
     <h2>North Westdale Neighborhood Association Newsletters</h2>
 
-    <div class="newsletter-div">
+    <div class="across-div">
       <a href="#current"><h2>Current</h2></a>
       <a href="#recent"><h2>Recent</h2></a>
       <a href="#archive"><h2>Archive</h2></a>
