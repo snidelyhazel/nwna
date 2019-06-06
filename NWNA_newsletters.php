@@ -194,8 +194,6 @@
             {
               echo "<p>Unable to process your submission. </p>" . "<p>Error code " . mysqli_errno($db) . ": " . mysqli_error($db) . "</p>";
             }
-
-
           }
 
           $email = filter_var(stripslashes($email), FILTER_SANITIZE_EMAIL);

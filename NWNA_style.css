@@ -51,7 +51,7 @@ header
 {
   display: flex;
   background-color: var(--brand-black);
-  background-image: url(imgs/NWNA_collage.jpg);
+  background-image: url(images/NWNA_collage.jpg);
   background-size: cover;
   background-position: center;
   height: 20vw;
