@@ -2,7 +2,7 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
-### Database for pet lost and found
+### Use space to right for tips i.e. resources for pets on pet l&f page
 
 ### Store remaining newsletter PDFs in database
 * ZIP or reduce filesize
@@ -24,7 +24,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Use cookies + advisory
 
-### Resources page
+### Build out resources page
+* icons
+* add zone info
 
 ### Send submission confirmation email
 
