@@ -12,6 +12,8 @@
   <?php include("includes/NWNA_nav.php");?>
   <main>
     <h2>Newsletter Uploader</h2>
+    <?php include("includes/NWNA_connection.php");?>
+
     <p>Note: Uploader only works with Chrome.</p>
     <form enctype="multipart/form-data" action="NWNA_admin.php#upload-newsletter" method="POST">
       <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
