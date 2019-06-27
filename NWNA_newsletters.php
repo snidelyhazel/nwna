@@ -72,7 +72,7 @@
             $QueryResult = mysqli_query($db, $SQLstring);
             $row = mysqli_fetch_array($QueryResult);
             $recent = $row["date"];
-
+error_log("line 75 here we are, " . $recent);
             echo "<p><a href='NWNA_viewPDF.php?date=" . $recent . "' target='_blank'>" . convertDate(substr($recent, 4, 2)) . " " . substr($recent, 0, 4) . "</a></p>";
           }
           else
