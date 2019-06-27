@@ -7,7 +7,7 @@
 //$dbname = "zashley_project";
 //mysqli_select_db($db, $dbname);
 
-  $url = parse_url(getenv("CLEAR_DATABASE_URL"));
+  $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
   $server = $url["host"];
   $username = $url["user"];
