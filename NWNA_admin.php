@@ -31,54 +31,28 @@
     <?php
       if (isset($_FILES['newsletter-upload']))
       {
-        $user="zashley";
-        $admin_password = $_POST['password'];
-
-        $host="localhost";
-
-        $db = mysqli_connect($host, $user, $admin_password);
         if ($db === FALSE)
         {
             echo "<p>Unable to connect to the database server.</p>" . "<p>Error code " . mysqli_errno() . ": " . mysqli_error() . "</p>";
         }
         else
         {
-            $dbname = "zashley_project";
+          $table = "newsletters";
 
-            /*
-              if (!mysqli_select_db($db, $dbname))
-              {
-                  $SQLstring = "CREATE DATABASE $dbname";
-                  $QueryResult = mysqli_query($db, $SQLstring);
+          $SQLstring = "SHOW TABLES LIKE '$table'";
+          $QueryResult = mysqli_query($db, $SQLstring);
 
-                  if ($QueryResult === FALSE)
-                  {
-                      echo "<p>Unable to execute the query.</p>" . "<p>Error code " . mysqli_errno($db) . ": " . mysqli_error($db) . "</p>";
-                  }
-                  else
-                  {
-                  }
-              }
-            */
-
-            mysqli_select_db($db, $dbname);
-
-            $table = "newsletters";
-
-            $SQLstring = "SHOW TABLES LIKE '$table'";
+          if (mysqli_num_rows($QueryResult) == 0)
+          {
+            $SQLstring = "CREATE TABLE IF NOT EXISTS $table (date BIGINT PRIMARY KEY, file LONGBLOB)";
             $QueryResult = mysqli_query($db, $SQLstring);
-
-            if (mysqli_num_rows($QueryResult) == 0)
+            /*
+            if ($QueryResult === FALSE)
             {
-                  $SQLstring = "CREATE TABLE IF NOT EXISTS $table (date BIGINT PRIMARY KEY, file LONGBLOB)";
-                  $QueryResult = mysqli_query($db, $SQLstring);
-                  /*
-                  if ($QueryResult === FALSE)
-                  {
-                    echo "<p>Unable to create the table.</p>" . "<p>Error code " . mysqli_errno($db) . ": " . mysqli_error($db) . "</p>";
-                  }
-                */
+              echo "<p>Unable to create the table.</p>" . "<p>Error code " . mysqli_errno($db) . ": " . mysqli_error($db) . "</p>";
             }
+          */
+          }
 
           $date = implode("", explode("-", $_POST['date']));
           $QueryResult = mysqli_query($db, "INSERT INTO $table (date, file) VALUES ($date, '" . mysqli_real_escape_string($db, file_get_contents($_FILES['newsletter-upload']['tmp_name'])) . "');");

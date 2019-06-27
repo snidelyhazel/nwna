@@ -2,12 +2,7 @@
   $CURRENT_PAGE = "Pets";
   $PAGE_TITLE = "NWNA Pets";
 
-  $user="zashley";
-  include("includes/db_pass.php");
-
-  $host="localhost";
-
-  $db = mysqli_connect($host, $user, $db_password);
+  include("includes/NWNA_connection.php");
 
   if ($db === FALSE)
   {
@@ -15,9 +10,6 @@
   }
   else
   {
-    $dbname = "zashley_project";
-    mysqli_select_db($db, $dbname);
-
     $table = "pets";
   }
 ?>

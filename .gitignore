@@ -4,8 +4,5 @@
 # PDFs
 *.pdf
 
-# Password
-includes/db_pass.php
-
 # Third-party files
 vendor
