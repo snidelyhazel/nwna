@@ -4,5 +4,9 @@
 # PDFs
 *.pdf
 
+# Admin
+.htaccess
+includes/NWNA_admininfo.php
+
 # Third-party files
 vendor

@@ -1,19 +1,17 @@
 <?php
-//  $user="zashley";
-//  include("includes/NWNA_connection.php");
-//  $host="localhost";
-//  $db = mysqli_connect($host, $user, $NWNA_connection);
-//in else:
-//$dbname = "zashley_project";
-//mysqli_select_db($db, $dbname);
-
-  $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-  $server = $url["host"];
-  $username = $url["user"];
-  $password = $url["pass"];
-  $database = substr($url["path"], 1);
+  if (is_string(getenv("CLEARDB_DATABASE_URL")))
+  {
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+    $server = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $database = substr($url["path"], 1);
+  }
+  else
+  {
+    // Access to test locally
+    include("includes/NWNA_admininfo.php");
+  }
 
   $db = new mysqli($server, $username, $password, $database);
-
 ?>
