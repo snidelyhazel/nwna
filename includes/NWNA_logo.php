@@ -13,9 +13,9 @@
 		</clipPath>
 	</defs>
 	<g transform="translate(-1.112 -.4379)">
-		<text x="30.805044" y="167.92113" fill="#000000" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="30.805044" y="177.2849" fill="#000000" stroke-width=".2646px"/></text>
-		<text x="110.55804" y="165.46426" fill="#000000" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="110.55804" y="174.82803" stroke-width=".2646px"/></text>
-		<g fill="none" stroke="#130000">
+		<text x="30.805044" y="167.92113" fill="currentColor" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="30.805044" y="177.2849" fill="currentColor" stroke-width=".2646px"/></text>
+		<text x="110.55804" y="165.46426" fill="currentColor" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="110.55804" y="174.82803" stroke-width=".2646px"/></text>
+		<g fill="none" stroke="currentColor">
 			<g transform="translate(-43.42 -69.33)" clip-path="url(#clipPath4738)">
 				<path d="m60.57 131.5c8.476 0 14.11-.556 22.6-5.383 4.823-2.741 9.688-6.157 15.24-6.225 3.842-.0471 5.785 2.433 5.844 4.898.0566 2.366-1.681 3.517-1.681 3.517-1.484 1.181-3.687 1.11-5.073-.5327-1.473-1.746.09092-3.407.09092-3.407"/>
 				<path d="m46.1 138.2h16.7"/>
@@ -41,14 +41,14 @@
 			<path d="m67.38.7674v4.441"/>
 		</g>
 		<g>
-			<text x="67.366196" y="100.28852" fill="#000000" font-family="Arial" font-size="7.056px" letter-spacing="0px" stroke-width=".2646px" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="67.366196" y="100.28852" fill="#000000" font-family="Arial" font-size="7.056px" stroke-width=".2646px" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">North Westdale Neighborhood Association</tspan></text>
+			<text x="67.366196" y="100.28852" fill="currentColor" font-family="Arial" font-size="7.056px" letter-spacing="0px" stroke-width=".2646px" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="67.366196" y="100.28852" fill="currentColor" font-family="Arial" font-size="7.056px" stroke-width=".2646px" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">North Westdale Neighborhood Association</tspan></text>
 			<g transform="matrix(.8579 0 0 1.166 -43.42 -69.33)" stroke-width=".3978px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="NWNA">
-				<path d="m78.83 112.4h4.509l10.97 20.7v-23.91l3.249-1.032v28.99h-4.509l-10.97-20.7v20.7h-3.249z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-				<path d="m100.6 106.7 3.07-.9171 6.919 27.57 5.188-20.92h3.763l5.205 20.92 5.188-20.92h3.398l-6.216 24.75h-4.21l-5.222-21.48-5.271 21.48h-4.21z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-				<path d="m138 112.4h4.509l10.97 20.7v-28.04l3.249.9171v31.17h-4.509l-10.97-20.7v20.7h-3.249z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
-				<path d="m171.7 115.7-4.542 12.32h9.101zm-1.422-4.56 3.017.6879 9.744 25.32h-3.481l-2.254-6.349h-11.16l-2.254 6.349h-3.531z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+				<path fill="currentColor" d="m78.83 112.4h4.509l10.97 20.7v-23.91l3.249-1.032v28.99h-4.509l-10.97-20.7v20.7h-3.249z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+				<path fill="currentColor" d="m100.6 106.7 3.07-.9171 6.919 27.57 5.188-20.92h3.763l5.205 20.92 5.188-20.92h3.398l-6.216 24.75h-4.21l-5.222-21.48-5.271 21.48h-4.21z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+				<path fill="currentColor" d="m138 112.4h4.509l10.97 20.7v-28.04l3.249.9171v31.17h-4.509l-10.97-20.7v20.7h-3.249z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+				<path fill="currentColor" d="m171.7 115.7-4.542 12.32h9.101zm-1.422-4.56 3.017.6879 9.744 25.32h-3.481l-2.254-6.349h-11.16l-2.254 6.349h-3.531z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
 			</g>
-			<g transform="matrix(.006575 0 0 -.006575 69.2 46.57)">
+			<g fill="currentColor" transform="matrix(.006575 0 0 -.006575 69.2 46.57)">
 				<path d="m1230 6655c-26-32 13-81 48-59 34 22 22 74-18 74-10 0-23-7-30-15z"/>
 				<path d="m659 6644c-17-21 0-49 31-49s48 28 31 49c-8 9-21 16-31 16s-23-7-31-16z"/>
 				<path d="m1040 6645c-26-31 13-82 44-56 19 16 21 42 4 59-16 16-33 15-48-3z"/>
